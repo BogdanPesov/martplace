@@ -1,0 +1,27 @@
+@import 'vars';
+@import 'global';
+.header__top {
+    background-color: $bg;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.header__content-link {
+    margin-left: auto;
+    margin-right: 215px;
+}
+
+.header__content-user {
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 15px;
+    span {
+        color: #0674ec;
+        font-weight: 400;
+    }
+}
