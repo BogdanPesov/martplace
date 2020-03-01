@@ -23,9 +23,9 @@
                         <a href="#">Become a Seller</a>
                     </div>
                     <div class="header__content-nots">
-                        <a href="#"><img src="images/header/alarm.png" alt=""></a>
-                        <a href="#"><img src="images/header/envelope.png" alt=""></a>
-                        <a href="#"><img src="images/header/cart.png" alt=""></a>
+                        <a href="#"><img class="nots-alarm" src="images/header/alarm.png" alt=""></a>
+                        <a href="#"><img class="nots-envelope" src="images/header/envelope.png" alt=""></a>
+                        <a href="#"><img class="nots-cart" src="images/header/cart.png" alt=""></a>
                     </div>
                     <div class="header__content-avatar">
                         <a href="#"><img src="images/header/avatar.png" alt=""></a>
@@ -73,7 +73,7 @@
                         <form>
                             <input type="text" placeholder="Search product here..." required>
                             <button type="submit">
-                                <img src="images/icons/search.png" alt="">
+                                <img src="images/product/search.png" alt="">
                             </button>
                         </form>
                     </div>
@@ -81,8 +81,9 @@
             </div>
         </div>
     </header>
+    <!-- endd header -->
     <!-- product -->
-    <section class="product">
+    <section class="product" style="background-image: url(../images/product/bg.svg);">
         <div class="container">
             <div class="product__inner">
                 <div class="product__inner-title">
@@ -96,23 +97,21 @@
                     <a href="#">View All Products</a>
                     <a href="#">Popular Products</a>
                 </div>
-                <div class="product__inner-rectang1"></div>
-                <div class="product__inner-rectang2"></div>
                 <div class="product__inner-search">
                     <form>
-                        <input type="text" placeholder="Search your products..." required>
-                        <select>
+                        <input class="search-form" type="text" placeholder="Search your products..." required>
+                        <select class="search-form">
                             <option value="all">All Categories</option>
                             <option value="1">Categorie one</option>
                             <option value="2">Categorie two</option>
                         </select>
-                        <button type="submit">Search Now</button>
+                        <button class="search-form" type="submit">Search Now</button>
                     </form>
-
                 </div>
             </div>
         </div>
     </section>
+    <!-- end product -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
