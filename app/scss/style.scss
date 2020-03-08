@@ -1,5 +1,6 @@
 @import 'vars';
 @import 'global';
+@import 'fonts';
 .header__top {
     background-color: $bg;
 }
@@ -790,7 +791,6 @@
 /* start sell */
 
 .sell {
-    margin: 0 auto;
     width: 100%;
     &-inner {
         display: flex;
@@ -833,10 +833,12 @@
 }
 
 .sell__item2 {
+    width: 100%;
     background-image: url(../images/sell/bg2.jpg);
 }
 
 .sell__item1 {
+    width: 100%;
     background-image: url(../images/sell/bg1.jpg);
 }
 
@@ -926,5 +928,194 @@
     &-text {
         font-size: 16px;
         line-height: 30px;
+    }
+}
+
+
+/* end feedback */
+
+
+/* start news */
+
+.news {
+    padding: 120px 0;
+    background-color: $grey;
+    text-align: center;
+    &__title {
+        font-size: 36px;
+        margin-bottom: 25px;
+        span {
+            color: $blue;
+        }
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.news__item {
+    min-height: 475px;
+    max-width: 361px;
+    width: 100%;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    &+.news__item {
+        margin-left: 30px;
+    }
+    &-image {
+        height: 230px;
+        margin-bottom: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-box {
+        padding: 0px 27px;
+        text-align: start;
+        min-height: 185px;
+    }
+    &-title {
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 23px;
+    }
+    &-text {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    &-footer {
+        font-size: 15px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        padding: 8px 27px;
+        border-top: 1px solid #ececec;
+    }
+    &-date {
+        position: relative;
+        padding: 13px 50px 13px 24px;
+        border-right: 1px solid #ececec;
+        &::before {
+            content: "\e864";
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            font-size: 15px;
+            color: $blue;
+            left: 0;
+        }
+    }
+    &-comment {
+        position: relative;
+        padding: 13px 23px 13px 56px;
+        &::before {
+            content: "\e83f";
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            left: 34px;
+            font-size: 15px;
+            color: #7e7e7e;
+        }
+    }
+    &-view {
+        position: relative;
+        padding: 13px 0px 13px 23px;
+        &::before {
+            content: "\e81b";
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            font-size: 15px;
+            color: #7e7e7e;
+            left: 0;
+        }
+    }
+}
+
+
+/* end news */
+
+
+/* start service */
+
+.service {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+.service__item-guarantee {
+    border-right: 1px solid #e8eaf3;
+    .service__item-image {
+        width: 152px;
+    }
+    .service__item-text {
+        span {
+            color: $blue;
+        }
+    }
+}
+
+.service__item-support {
+    .service__item-image {
+        width: 159px;
+    }
+    .service__item-text {
+        span {
+            color: #7347c1;
+        }
+    }
+}
+
+.service__item {
+    padding: 60px 135px;
+    &-image {
+        display: inline-block;
+        height: 121px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &-text {
+        margin-top: 31px;
+        font-size: 24px;
+    }
+}
+
+
+/* end service */
+
+
+/* start join */
+
+.join {
+    background-image: url(../images/join/bg.jpg);
+    padding: 110px 0px;
+    text-align: center;
+    &__title {
+        color: #fff;
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+    &__text {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    &__btn {
+        a {
+            font-size: 16px;
+            border-radius: 30px;
+            padding: 20px 43px;
+            background-color: #fff;
+            color: $blue;
+        }
     }
 }
