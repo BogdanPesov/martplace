@@ -24,6 +24,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "gulp-autoprefixer": "^7.0.1"
+    "gulp-autoprefixer": "^7.0.1",
+    "ion-rangeslider": "^2.3.1"
   }
 }
