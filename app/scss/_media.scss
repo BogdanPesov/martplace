@@ -1,0 +1,181 @@
+@media (max-width: 1150px) {
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__col1 {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 980px) {
+    .menu__list {
+        .header__menu-list {
+            height: auto;
+        }
+        display: none;
+        position: absolute;
+        top: 180px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #eef1f3;
+        z-index: 2;
+        .header__menu-list {
+            display: block;
+            margin-top: 0;
+            border-top: 1px solid $blue;
+            &:last-child {
+                border-bottom: 1px solid $blue;
+            }
+            .menu__list-products,
+            .menu__list-home,
+            .menu__list-wordpress {
+                top: 58px;
+                width: 100%;
+                padding: 0;
+                border-top: none;
+                ul {
+                    li {
+                        border-bottom: 1px solid $blue;
+                    }
+                }
+            }
+            .menu__list-pages {
+                top: 58px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                .menu__list-pages-item {
+                    text-align: start;
+                }
+                .list__pages-dashboard {
+                    max-width: 200px;
+                }
+                .list__pages-other {
+                    padding-right: 0;
+                }
+            }
+            .list__main-link {
+                padding: 20px 0px;
+            }
+            &+.header__menu-list {
+                margin-left: 0;
+            }
+        }
+    }
+    .menu__btn {
+        display: block;
+    }
+}
+
+@media (max-width: 860px) {
+    .header__content-link {
+        display: none;
+    }
+    .footer__col1 {
+        margin-bottom: 0;
+    }
+    .footer__col2 {
+        margin-top: 30px;
+        margin-right: 200px;
+    }
+    .footer__col3 {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .footer__col-title {
+        margin-bottom: 0;
+    }
+    .footer__social-links {
+        display: block;
+        li {
+            &+li {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .header__top-inner {
+        position: relative;
+        .header__content-box {
+            display: none;
+            position: absolute;
+            right: -16px;
+            z-index: 2;
+            flex-flow: column-reverse;
+            top: 100px;
+            padding: 20px;
+            background-color: #eef1f3;
+            &.active {
+                display: inline-flex;
+                transition: all .5s;
+            }
+        }
+        .user__btn {
+            display: block;
+            right: 0;
+        }
+        .user-box {
+            margin: 0;
+            height: 60px;
+            .user-menu {
+                top: 67px;
+                left: -81px;
+            }
+            &:hover {
+                &::after {
+                    top: 37px;
+                    left: 64px;
+                }
+            }
+        }
+        .notification-box,
+        .cart-box,
+        .message-box {
+            margin-left: 0;
+            height: 0;
+            padding: 20px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            .notification-menu,
+            .cart-menu,
+            .message-menu {
+                top: 60px;
+                left: -267px;
+            }
+            &:hover {
+                &::after {
+                    top: 29px;
+                    left: -5px;
+                }
+            }
+        }
+    }
+    .menu__btn {
+        margin-right: 55px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer__social-links {
+        display: block;
+        li {
+            &+li {
+                margin-left: 3px;
+            }
+        }
+    }
+    .footer__col2 {
+        margin-right: 50px;
+    }
+}
+
+
+/* @media(min-width: 981px) {
+    .lnr-menu {
+        display: block !important;
+    }
+} */
