@@ -6,8 +6,15 @@ $(function() {
     });
 
     $('.slider__inner').slick({
-        prevArrow: '<button class="slick-arrow slick-prev"><img src="images/slider/arrow-left.png" alt=""></button>',
-        nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider/arrow-right.png" alt=""></button>',
+
+    });
+
+
+    $('.feed__slider').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true,
 
     });
 
