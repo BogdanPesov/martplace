@@ -41,12 +41,12 @@ $(function() {
     $('.lnr-list').on('click', function() {
         $('.category__page-item').addClass('list');
         $('.lnr-list').addClass('active');
-        $('.lnr-sort-amount-asc').removeClass('active');
+        $('.lnr-menu').removeClass('active');
     });
 
-    $('.lnr-sort-amount-asc').on('click', function() {
+    $('.lnr-menu').on('click', function() {
         $('.category__page-item').removeClass('list');
-        $('.lnr-sort-amount-asc').addClass('active');
+        $('.lnr-menu').addClass('active');
         $('.lnr-list').removeClass('active');
     });
 
@@ -60,6 +60,7 @@ $(function() {
 
     });
 
+    $('input:checkbox, select').styler();
 
     var mixer = mixitup('.release__inner-box, .category__page-box');
 

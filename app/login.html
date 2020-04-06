@@ -382,21 +382,20 @@
             <!-- end header -->
 
             <!-- start page login -->
-            <section class="login">
-                <div class="login__wrapper">
-                    <div class="container">
-                        <div class="breadcrumbs">
-                            <ul class="breadcrumbs__list">
-                                <li><a href="#">Home</a></li>
-                                <li><span>Login</span></li>
-                            </ul>
-                            <div class="breadcrumbs__title">
-                                Login
-                            </div>
+            <div class="breadcrumbs__wrapper">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li><a href="#">Home</a></li>
+                            <li><span>Login</span></li>
+                        </ul>
+                        <div class="breadcrumbs__title">
+                            Login
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <section class="login">
                 <div class="page-login__inner">
                     <div class="container">
                         <div class="page-login__item">
@@ -410,9 +409,8 @@
                                     <input type="text" placeholder="Enter your username...">
                                     <p>Password</p>
                                     <input type="password" placeholder="Enter your password...">
-                                    <label class="login-page__remember" for="checkbox"> <input type="checkbox">
-                                        <span>Remember me</span></label>
-                                    <!-- <span></span> -->
+                                    <input type="checkbox">
+                                    <label>Remember me</label>
                                     <button type="submit">Login Now</button>
                                 </form>
                                 <div class="page-login__bottom">

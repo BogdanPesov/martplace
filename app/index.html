@@ -377,8 +377,8 @@
                 </div>
             </header>
             <!-- end header -->
-            <!-- product -->
-            <section class="product" style="background-image: url(../images/product/bg.jpg);">
+            <!-- start product -->
+            <section class="product">
                 <div class="container">
                     <div class="product__inner">
                         <div class="product__inner-title">
@@ -393,14 +393,15 @@
                             <a href="#">Popular Products</a>
                         </div>
                         <div class="product__inner-search">
-                            <form>
-                                <input class="search-form" type="text" placeholder="Search your products..." required>
-                                <select class="search-form">
-                                    <option value="all">All Categories</option>
+                            <form class="search-form">
+                                <input type="text" placeholder="Search your products..." required>
+                                <select data-placeholder="All Categories">
+                                    <option></option>
                                     <option value="1">Category one</option>
                                     <option value="2">Category two</option>
+                                    <option value="3">Category three</option>
                                 </select>
-                                <button class="search-form" type="submit">Search Now</button>
+                                <button type="submit">Search Now</button>
                             </form>
                         </div>
                     </div>
