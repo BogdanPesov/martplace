@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceMart</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <!--start header -->
+            <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__top-inner">
+                            <div class="header__logo">
+                                <a href="#"><img src="images/header/logo.png" alt=""></a>
+                            </div>
+                            <div class="header__content-link">
+                                <a href="#">Become a Seller</a>
+                            </div>
+                            <div class="user__btn lnr-user"></div>
+                            <div class="header__content-box">
+                                <div class="notification-box">
+                                    <a class="notification lnr-alarm header__circle" href="#"><span>25</span></a>
+                                    <div class="notification-menu">
+                                        <div class="notification-menu__top">
+                                            <div class="notification-menu__title">
+                                                My Notifications
+                                            </div>
+                                            <div class="notification-menu__view">
+                                                <a href="#">View All</a>
+                                            </div>
+                                        </div>
+                                        <div class="notification-menu__inner">
+                                            <div class="notification-menu__item">
+                                                <div class="notification-menu__image" style="background-image: url(images/header/avatar40.png);">
+                                                </div>
+                                                <div class="notification-menu__content notification-favourite">
+                                                    <span class="notification-menu__name">Bulbul Ahmed</span>added to Favourite
+                                                    <a href="#">Marketify Coffee Shop</a>
+                                                    <span class="notification-menu__date">Just now</span>
+                                                </div>
+                                            </div>
+                                            <div class="notification-menu__item">
+                                                <div class="notification-menu__image" style="background-image: url(images/header/avatar.png);">
+                                                </div>
+                                                <div class="notification-menu__content notification-comment">
+                                                    <span class="notification-menu__name">Michael Jorden</span>commented on
+                                                    <a href="#">MartPlace Extension Bundle</a>
+                                                    <span class="notification-menu__date">Just now</span>
+                                                </div>
+                                            </div>
+                                            <div class="notification-menu__item">
+                                                <div class="notification-menu__image" style="background-image: url(images/header/avatar40.png);">
+                                                </div>
+                                                <div class="notification-menu__content notification-purchase">
+                                                    <span class="notification-menu__name">Bulbul Ahmed</span>purchased
+                                                    <a href="#">Bryson-Responsive Template</a>
+                                                    <span class="notification-menu__date">Just now</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="message-box">
+                                    <a class="message lnr-envelope header__circle" href="#"><span>6</span></a>
+                                    <div class="message-menu">
+                                        <div class="message-menu__top">
+                                            <div class="message-menu__title">
+                                                My Messages
+                                            </div>
+                                            <div class="message-menu__view">
+                                                <a href="#">View All</a>
+                                            </div>
+                                        </div>
+                                        <div class="message-menu__inner">
+                                            <div class="message-menu__item">
+                                                <div class="message-menu__image" style="background-image: url(images/header/avatar.png);">
+                                                </div>
+                                                <div class="message-menu__name">
+                                                    Bulbul Ahmed
+                                                    <span class="message-menu__date">Just now</span>
+                                                </div>
+                                                <div class="message-menu__text">
+                                                    Hello John Smith! Nunc placerat Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                            <div class="message-menu__item">
+                                                <div class="message-menu__image" style="background-image: url(images/header/avatar.png);">
+                                                </div>
+                                                <div class="message-menu__name">
+                                                    Bulbul Ahmed
+                                                    <span class="message-menu__date">2 hours ago</span>
+                                                </div>
+                                                <div class="message-menu__text">
+                                                    Hello John Smith! Nunc placerat Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                            <div class="message-menu__item">
+                                                <div class="message-menu__image" style="background-image: url(images/header/avatar.png);">
+                                                </div>
+                                                <div class="message-menu__name">
+                                                    Bulbul Ahmed
+                                                    <span class="message-menu__date">Jul 13</span>
+                                                </div>
+                                                <div class="message-menu__text">
+                                                    Hello John Smith! Nunc placerat Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                            <div class="message-menu__item">
+                                                <div class="message-menu__image" style="background-image: url(images/header/avatar.png);">
+                                                </div>
+                                                <div class="message-menu__name">
+                                                    Bulbul Ahmed
+                                                    <span class="message-menu__date">Jul 16</span>
+                                                </div>
+                                                <div class="message-menu__text">
+                                                    Hello John Smith! Nunc placerat Hello John Smith! Nunc placerat id...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-box">
+                                    <a class="cart lnr-cart header__circle" href="#"><span>2</span></a>
+                                    <div class="cart-menu">
+                                        <div class="cart-item">
+                                            <div class="cart-item__inner">
+                                                <div class="cart-item__image" style="background-image: url(images/header/cart-menu.jpg);">
+                                                </div>
+                                                <div class="cart-item__info">
+                                                    <div class="cart-item__title">
+                                                        Finance and Consulting Business Theme
+                                                    </div>
+                                                    <div class="cart-item__plugin">
+                                                        Wordpress
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item__bottom">
+                                                    <button class="lnr-trash"></button>
+                                                    <div class="cart-item__price">
+                                                        $60
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cart-item">
+                                            <div class="cart-item__inner">
+                                                <div class="cart-item__image" style="background-image: url(images/header/cart-menu.jpg);">
+                                                </div>
+                                                <div class="cart-item__info">
+                                                    <div class="cart-item__title">
+                                                        Flounce - Multipurpose OpenCart Theme
+                                                    </div>
+                                                    <div class="cart-item__plugin">
+                                                        Wordpress
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item__bottom">
+                                                    <button class="lnr-trash"></button>
+                                                    <div class="cart-item__price">
+                                                        $20
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cart-item__total">
+                                            <span>Total :</span>$80
+                                        </div>
+                                        <div class="cart-item__btn">
+                                            <a href="#">Go to Cart</a>
+                                            <a href="#">Go to Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-box ">
+                                    <div class="header__content-avatar" style="background-image: url(images/header/avatar.png);">
+                                    </div>
+                                    <div class="header__content-user">
+                                        Taofiq Hakim
+                                        <span>$20.45</span>
+                                        <div class="user-menu">
+                                            <ul>
+                                                <li><a class="lnr-user" href="#">Profile Page</a></li>
+                                                <li><a class="lnr-home" href="#">Dashboard</a></li>
+                                                <li><a class="lnr-cog" href="#">Account Settings</a></li>
+                                                <li><a class="lnr-cart" href="#">Your Purchases</a></li>
+                                                <li><a class="lnr-heart" href="#">Your Favorites</a></li>
+                                                <li><a class="lnr-dice" href="#">Add Credits</a></li>
+                                                <li><a class="lnr-chart-bars" href="#">Sales Statements</a></li>
+                                                <li><a class="lnr-upload" href="#">Upload Item</a></li>
+                                                <li><a class="lnr-book" href="#">Edit Item</a></li>
+                                                <li><a class="lnr-briefcase" href="#">Withdrawals</a></li>
+                                                <li><a class="lnr-exit" href="#">Logout</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="container">
+                        <div class="header__bottom-inner">
+                            <nav class="menu">
+                                <div class="menu__btn lnr-menu"></div>
+                                <ul class="menu__list">
+                                    <div class="header__menu-list">
+                                        <li class="list__main-link">
+                                            <a href="#">HOME</a>
+                                        </li>
+                                        <div class="menu__list-home">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Home One Multi User</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Home Two Single User</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Home Three Product</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="header__menu-list">
+                                        <li class="list__main-link">
+                                            <a href="#">all products</a>
+                                        </li>
+                                        <div class="menu__list-products">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Recent Items</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Popular Items</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Featured Items</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Free Templates</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Follow Feed</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Top Authors</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="header__menu-list">
+                                        <li class="list__main-link">
+                                            <a href="#">wordpress</a>
+                                        </li>
+                                        <div class="menu__list-wordpress">
+                                            <ul>
+                                                <li><a href="#">Popular Items</a></li>
+                                                <li><a href="#">Admin Templates</a></li>
+                                                <li><a href="#">Blog / Magazine / News</a></li>
+                                                <li><a href="#">Creative</a></li>
+                                                <li><a href="#">Corporate Business</a></li>
+                                                <li><a href="#">Resume Portfolio</a></li>
+                                                <li><a href="#">eCommerce</a></li>
+                                                <li><a href="#">Entertainment</a></li>
+                                                <li><a href="#">Landing Pages</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="header__menu-list">
+                                        <li class="list__main-link">
+                                            <a href="#">festures</a>
+                                        </li>
+                                    </div>
+                                    <div class="header__menu-list">
+                                        <li class="list__main-link">
+                                            <a href="#">Pages</a>
+                                        </li>
+                                        <div class="menu__list-pages">
+                                            <div class="menu__list-pages-item list__pages-martplace">
+                                                <div class="menu__list-pages-title">
+                                                    MartPlace Pages
+                                                </div>
+                                                <ul>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu__list-pages-item list__pages-dashboard">
+                                                <div class="menu__list-pages-title">
+                                                    Dashboard
+                                                </div>
+                                                <ul>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu__list-pages-item list__pages-other">
+                                                <div class="menu__list-pages-title">
+                                                    Others Pages
+                                                </div>
+                                                <ul>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                    <li><a href="#">Home Page One</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </nav>
+                            <div class="header__bottom-search">
+                                <form>
+                                    <input type="text" placeholder="Search product here..." required>
+                                    <button type="submit">
+                                        <img src="images/product/search.png" alt="">
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- end header -->
+
+            <!-- start single product-->
+            <div class="breadcrumbs__wrapper">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Wordpress</a></li>
+                            <li><span>Corporate & Business</span></li>
+                        </ul>
+                        <div class="breadcrumbs__title">
+                            Wrost - Material Design Responsive Real Estate Template
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="single-product">
+                <div class="container">
+                    <div class="single-product__inner">
+                        <div class="single-product__content">
+                            <div class="single-product__content-item">
+                                <div class="single-product__content-image" style="background-image: url(images/blog/item-2.jpg);">
+                                </div>
+                                <div class="single-product__content-btn">
+                                    <a href="#">Live Preview</a>
+                                    <button type="submit" class="lnr-heart">Add To Favorites</button>
+                                </div>
+                                <div class="single-product__content-social">
+                                    <button>Share this item</button>
+                                    <ul class="footer__social-links">
+                                        <li>
+                                            <a class="link-facebook" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-twitter" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-google" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-red" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-indid" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-ball" href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-product__tabs">
+                                <div class="tabs">
+                                    <span class="tab active" data-id="1">Item Details</span>
+                                    <span class="tab" data-id="2">Comments <span>(35)</span></span>
+                                    <span class="tab" data-id="3">Reviews</span>
+                                    <span class="tab" data-id="4">Support</span>
+                                    <span class="tab" data-id="5">Item FAQs</span>
+                                </div>
+                                <div class="tab_content">
+                                    <div class="tab-item active-tab" id="1">
+                                        <div class="tab-item__title">
+                                            Landing Page Details
+                                        </div>
+                                        <div class="tab-item__text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scel erisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                                            Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                                        </div>
+                                        <div class="tab-item__title">
+                                            Features With HTML List Unordered:
+                                        </div>
+                                        <ul class="tab-list__unordered">
+                                            <li>Six different themes for product slider</li>
+                                            <li>Featured products slider form selected categories.</li>
+                                            <li>Product slider form specific categories of products. Include or exclude categories.</li>
+                                            <li>Product slider form specific tags of products. Include or exclude tags. New</li>
+                                        </ul>
+                                        <div class="tab-item__title">
+                                            Features With HTML List Ordered:
+                                        </div>
+                                        <ul class="tab-list__ordered">
+                                            <li><span>Product slider form specific categories of products. Include or exclude categories.</span></li>
+                                            <li><span>Product slider form specific tags of products. Include or exclude tags. New</span></li>
+                                            <li><span>Product slider form specific selected products.</span></li>
+                                            <li><span>Product slider form specific products by product SKU.</span></li>
+                                        </ul>
+                                        <div class="tab-item__title">
+                                            Features With Big Image:
+                                        </div>
+                                        <div class="tab-item__image" style="background-image: url(images/single-product/big-image.jpg);">
+                                        </div>
+                                    </div>
+                                    <div class="tab-item" id="2">sdsd
+                                    </div>
+                                    <div class="tab-item" id="3">asdad
+                                    </div>
+                                    <div class="tab-item" id="4">
+                                    </div>
+                                    <div class="tab-item" id="5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-product__aside">
+                            <div class="product__aside-item product__aside-item-license">
+                                <div class="product__aside-price">
+                                    <span>60.00</span>
+                                </div>
+                                <form class="aside-item__radio">
+                                    <input type="checkbox"><label>Single User License</label>
+                                    <p>Nunc placerat mi id nisi interdum is mollis. Praesent pharetra, justo ut sceleris que the mattis, leo quam.
+                                    </p>
+                                    <input type="checkbox"><label>Multi User License</label>
+
+                                </form>
+                                <div class="product__aside-btn">
+                                    <a class="btn-blue" href="#">Purchase Now</a>
+                                    <button class=" btn-purple lnr-cart" type="submit">Add To Cart</button>
+                                </div>
+                            </div>
+                            <div class="product__aside-item">
+                                <div class="product__aside-sales lnr-cart">
+                                    Total Sales <span>426</span>
+                                </div>
+                                <div class="product__aside-favourites lnr-heart">
+                                    Favorites <span>240</span>
+                                </div>
+                                <div class="product__aside-comments lnr-bubble">
+                                    Comments <span>35</span>
+                                </div>
+                                <div class="category__page-item-star-wrapper">
+                                    <div class="category__page-item-star">
+                                    </div> <span>(26 Ratings)</span>
+                                </div>
+                            </div>
+                            <div class="product__aside-item">
+                                <div class="product__aside-title">
+                                    Product Information
+                                </div>
+
+                                <ul class="product__aside-info">
+                                    <li><span class="info-span__1">Released :</span><span class="info-span__2">16
+                                            June 2015</span></li>
+                                    <li><span class="info-span__1">Updated :</span><span class="info-span__2">28
+                                            July 2016</span></li>
+                                    <li><span class="info-span__1">Version :</span><span class="info-span__2">1.2</span>
+                                    </li>
+                                    <li><span class="info-span__1">Category :</span><span class="info-span__2">Corporate
+                                            & Business</span></li>
+                                    <li><span class="info-span__1">Layout :</span><span class="info-span__2">Responsive</span></li>
+                                    <li><span class="info-span__1">Retina Ready :</span><span class="info-span__2">No</span></li>
+                                    <li><span class="info-span__1">Files Included :</span><span class="info-span__2">Html, CSS, JavaScript</span></li>
+                                    <li><span class="info-span__1">Browser :</span><span class="info-span__2">IE10,
+                                            IE11, Firefox, Safari, Opera,
+                                            Chrome</span></li>
+                                    <li><span class="info-span__1">Bootstrap :</span><span class="info-span__2">Bootstrap 4</span></li>
+                                    <li><span class="info-span__1">Tags :</span><span class="info-span__2 info-span__tags">business,
+                                            template,
+                                            onepage, creative,
+                                            responsive, corporate,
+                                            Bootstrap3, html5</span></li>
+                                </ul>
+                            </div>
+                            <div class="product__aside-item">
+                                <div class="product__aside-title">
+                                    Product Author
+                                </div>
+                                <div class="product__aside-avatar" style="background-image: url(images/single-product/user.jpg);">
+                                </div>
+                                <div class="product__aside-name">
+                                    Theme-Valley
+                                </div>
+                                <div class="product__aside-date">
+                                    Signed Up: 08 April 2016
+                                </div>
+                                <div class="product__aside-link">
+                                    <ul class="footer__social-links">
+                                        <li>
+                                            <a class="link-facebook" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-twitter" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-ball" href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product__aside-button">
+                                    <a class="product__aside-profile" href="#">View Profile</a>
+                                    <a class="product__aside-message" href="#">Send Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end single product-->
+            <!-- start footer -->
+
+        </div>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__col footer__col1">
+                            <div class="footer__col-logo" style="background-image: url(images/footer/logo.png);">
+                            </div>
+                            <div class="footer__col-text">
+                                Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the mattis, leo quam.
+                            </div>
+                            <div class="footer__col-info">
+                                <a class="footer__col-phone" href="tel:67898752235">Phone: +6789-875-2235</a>
+                                <a class="footer__col-mail" href="mailto:support@aazztech.com">support@aazztech.com</a>
+                                <div class="footer__col-adress"> 202 New Hampshire Avenue Northwest #100, New York-2573
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__col footer__col2">
+                            <div class="footer__col-title">
+                                Our Company
+                            </div>
+                            <ul class="footer__col-list">
+                                <li> <a href="#"> About Us</a></li>
+                                <li> <a href="#"> How It Work</a></li>
+                                <li> <a href="#"> Affiliates</a></li>
+                                <li> <a href="#"> Testimonials</a></li>
+                                <li> <a href="#"> Contact Us</a></li>
+                                <li> <a href="#"> Copyright Notice</a></li>
+                                <li> <a href="#"> Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col footer__col2">
+                            <div class="footer__col-title">
+                                Help Support
+                            </div>
+                            <ul class="footer__col-list">
+                                <li> <a href="#"> Support Forum</a></li>
+                                <li> <a href="#"> Terms & Conditions</a></li>
+                                <li> <a href="#"> Support Policy</a></li>
+                                <li> <a href="#"> Refund Policy</a></li>
+                                <li> <a href="#"> FAQs</a></li>
+                                <li> <a href="#"> Buyers Faq</a></li>
+                                <li> <a href="#"> Sellers Faq</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__col footer__col3">
+                            <div class="footer__col-title">
+                                Newsletter
+                            </div>
+                            <div class="footer__col-text">
+                                Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
+                            </div>
+                            <form>
+                                <input type="text" placeholder="Enter email">
+                                <button type="submit">Submit</button>
+                            </form>
+                            <ul class="footer__social-links">
+                                <li>
+                                    <a class="link-facebook" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="link-twitter" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="link-google" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="link-red" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="link-indid" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="link-ball" href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footer__bottom-text">
+                        ©2017 <span>MartPlace</span>. All rights reserved. Created by <a href="#">AazzTech</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
