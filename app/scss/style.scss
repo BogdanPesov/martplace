@@ -35,7 +35,7 @@
     }
     .header__content-user {
         margin-left: 20px;
-        font-weight: 500;
+        @include f500;
         line-height: 22px;
         font-size: 16px;
         color: #333333;
@@ -148,7 +148,7 @@
         }
         .message-menu__name,
         .notification-menu__name {
-            font-weight: 500;
+            @include f500;
             font-size: 16px;
             line-height: 20px;
             color: #000;
@@ -198,7 +198,7 @@
                     width: 205px;
                     .cart-item__title {
                         font-size: 16px;
-                        font-weight: 500;
+                        @include f500;
                         line-height: 22px;
                         margin-bottom: 17px;
                     }
@@ -236,7 +236,7 @@
                         padding: 0px 12px;
                         border-radius: 25px;
                         font-size: 16px;
-                        font-weight: 500;
+                        @include f500;
                         color: $blue;
                         line-height: 30px;
                         background-color: #e6f1fd;
@@ -246,7 +246,7 @@
         }
         .cart-item__total {
             font-size: 18px;
-            font-weight: 500;
+            @include f500;
             padding: 25px 25px 30px;
             background-color: #fff;
             text-align: end;
@@ -430,7 +430,7 @@
             color: #fff;
             border-radius: 50%;
             font-size: 14px;
-            font-weight: 500;
+            @include f500;
             top: -13px;
         }
     }
@@ -503,7 +503,7 @@
     .list__main-link {
         text-transform: uppercase;
         a {
-            font-weight: 500;
+            @include f500;
             color: #333333;
             &:hover {
                 color: $blue;
@@ -577,7 +577,7 @@
         .menu__list-pages-title {
             padding: 0px 10px;
             font-size: 16px;
-            font-weight: 500;
+            @include f500;
             line-height: 40px;
             padding-bottom: 12px;
             border-bottom: 1px solid #e8ebf0;
@@ -673,7 +673,7 @@
         margin-bottom: 0;
         span {
             display: block;
-            font-weight: 700;
+            @include f700;
         }
     }
     &-text {
@@ -932,7 +932,7 @@
     }
     &-title {
         font-size: 24px;
-        font-weight: 500;
+        @include f500;
         margin-bottom: 15px;
     }
     &-author {
@@ -1189,7 +1189,7 @@
             border-radius: 30px;
             padding: 10px 30px;
             line-height: 30px;
-            font-weight: 500;
+            @include f500;
             background-color: transparent;
             color: #fff;
             &+a {
@@ -1217,7 +1217,7 @@
         }
     }
     &-title {
-        font-weight: 500;
+        @include f500;
         font-size: 20px;
         margin-bottom: 20px;
     }
@@ -1264,7 +1264,7 @@
     &-price {
         color: $blue;
         background-color: #e6f1fd;
-        font-weight: 500;
+        @include f500;
         line-height: 30px;
         padding: 0px 20px;
         border-radius: 25px;
@@ -1692,7 +1692,7 @@
         min-height: 185px;
     }
     &-title {
-        font-weight: 500;
+        @include f500;
         font-size: 22px;
         margin-bottom: 23px;
     }
@@ -2031,7 +2031,7 @@
     font-size: 26px;
     margin-bottom: 30px;
     span {
-        font-weight: 500;
+        @include f500;
     }
 }
 
@@ -2110,7 +2110,7 @@
     margin-top: 30px;
     font-size: 30px;
     color: #fff;
-    font-weight: 500;
+    @include f500;
     span {
         display: block;
         font-weight: 300;
@@ -2238,7 +2238,7 @@
 .blog__item-title {
     font-size: 30px;
     line-height: 36px;
-    font-weight: 500;
+    @include f500;
     transition: all .3s;
     padding: 0px 30px;
     &:hover {
@@ -2397,7 +2397,7 @@
 
 .item-post__text {
     a {
-        font-weight: 500;
+        @include f500;
         font-size: 16px;
         line-height: 20px;
         color: #333333;
@@ -2524,7 +2524,7 @@
                     background-color: $blue;
                     color: #fff;
                     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
-                    font-weight: 500px;
+                    @include f500;
                     border: none;
                     border-radius: 30px;
                     outline: none;
@@ -2711,7 +2711,7 @@
                 align-items: center;
                 height: 38px;
                 width: 50px;
-                font-weight: 500;
+                @include f500;
                 color: #747b86;
                 background-color: #fff;
                 border-radius: 50%;
@@ -2763,7 +2763,7 @@
                 display: none;
             }
             .category__page-item-title {
-                font-weight: 500;
+                @include f500;
                 font-size: 18px;
                 line-height: 24px;
                 margin-bottom: 12px;
@@ -2825,7 +2825,7 @@
                 span {
                     border-radius: 25px;
                     line-height: 30px;
-                    font-weight: 500;
+                    @include f500;
                     color: $blue;
                     padding: 3px 20px;
                     background-color: #e6f1fd;
@@ -2965,7 +2965,7 @@
 .page-404__button {
     margin-top: 20px;
     line-height: 32px;
-    font-weight: 500;
+    @include f500;
     padding: 10px 44px;
     background-color: $blue;
     border-radius: 24px;
@@ -3013,7 +3013,7 @@
         p {
             margin-top: 30px;
             font-size: 16px;
-            font-weight: 500;
+            @include f500;
             margin-bottom: 15px;
         }
         input {
@@ -3037,7 +3037,7 @@
             padding: 7px 55px;
             display: block;
             line-height: 32px;
-            font-weight: 500;
+            @include f500;
             background-color: $blue;
             color: #fff;
             border-radius: 24px;
@@ -3208,7 +3208,7 @@
     font-size: 16px;
     color: #555555;
     span {
-        font-weight: 500;
+        @include f500;
         font-size: 36px;
         color: #000;
         position: relative;
@@ -3223,7 +3223,7 @@
 
 .pricing__item-title {
     font-size: 24px;
-    font-weight: 500;
+    @include f500;
     color: #000;
     padding-bottom: 30px;
     border-bottom: 1px solid #e8ebf0;
@@ -3256,7 +3256,7 @@
             right: 64px;
         }
         span {
-            font-weight: 500;
+            @include f500;
             color: #000;
         }
     }
@@ -3266,7 +3266,7 @@
     display: block;
     width: 100%;
     color: #fff;
-    font-weight: 500;
+    @include f500;
     font-size: 18px;
     line-height: 28px;
     padding: 10px 0;
@@ -3285,7 +3285,7 @@
         font-size: 24px;
         color: #000;
         span {
-            font-weight: 500;
+            @include f500;
         }
     }
     .favourites-box {
@@ -3368,7 +3368,7 @@
 
 .contact__item-title {
     padding-top: 90px;
-    font-weight: 500;
+    @include f500;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 30px;
@@ -3457,6 +3457,14 @@
     margin-bottom: 40px;
 }
 
+.contact__map {
+    background-color: #e3e6ec;
+    iframe {
+        height: 400px;
+        width: 100%;
+    }
+}
+
 
 /* end contact */
 
@@ -3499,7 +3507,7 @@
     margin: 30px 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid #e8e8e8;
-    font-weight: 500;
+    @include f500;
     line-height: 52px;
     a {
         color: #fff;
@@ -3511,7 +3519,7 @@
     }
     button {
         cursor: pointer;
-        font-weight: 500;
+        @include f500;
         background-color: #fff;
         padding: 0px 50px;
         color: #7347c1;
@@ -3535,7 +3543,7 @@
     justify-content: center;
     button {
         cursor: pointer;
-        font-weight: 500;
+        @include f500;
         color: #000;
         margin-right: 20px;
         background-color: #fff;
@@ -3584,7 +3592,7 @@
             span {
                 width: fit-content;
                 margin-left: 5px;
-                font-weight: 500;
+                @include f500;
                 border-left: none;
                 border-bottom: none;
             }
@@ -3639,7 +3647,7 @@
     li {
         list-style-type: decimal;
         color: #000;
-        font-weight: 500;
+        @include f500;
         padding-left: 20px;
         margin-left: 16px;
         font-size: 16px;
@@ -3677,7 +3685,7 @@
         margin: 0 30px 30px;
         label {
             font-size: 18px;
-            font-weight: 500;
+            @include f500;
         }
         p {
             font-size: 16px;
@@ -3697,7 +3705,7 @@
         width: 100%;
         display: block;
         font-size: 16px;
-        font-weight: 500;
+        @include f500;
         margin-bottom: 30px;
         background-color: $blue;
         color: #fff;
@@ -3711,7 +3719,7 @@
         background-color: #7347c1;
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
         font-size: 16px;
-        font-weight: 500;
+        @include f500;
         width: 100%;
         display: block;
         border: none;
@@ -3748,7 +3756,7 @@
     height: 105px;
     color: #fff;
     font-size: 36px;
-    font-weight: 500;
+    @include f500;
     span {
         position: relative;
         &::before {
@@ -3773,7 +3781,7 @@
     padding: 30px 0 30px 25px;
     span {
         font-size: 18px;
-        font-weight: 500;
+        @include f500;
     }
     &::before {
         position: absolute;
@@ -3814,7 +3822,7 @@
     .info-span__1 {
         width: 40%;
         display: inline-flex;
-        font-weight: 500;
+        @include f500;
         color: #333333;
     }
     .info-span__2 {
@@ -3843,7 +3851,7 @@
     margin-bottom: 20px;
     font-size: 18px;
     color: #000;
-    font-weight: 500;
+    @include f500;
 }
 
 .product__aside-date {
