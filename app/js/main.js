@@ -14,8 +14,22 @@ $(function() {
         infinite: false,
         slidesToShow: 3,
         slidesToScroll: 1,
-        variableWidth: true,
-
+        edgeFriction: 0,
+        responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
     });
 
     $(".js-range-slider").ionRangeSlider({

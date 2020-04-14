@@ -28,6 +28,8 @@ li {
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .wrapper {
@@ -54,4 +56,8 @@ body {
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
+}
+
+.jq-selectbox {
+    z-index: 1;
 }
